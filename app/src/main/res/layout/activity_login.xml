@@ -102,7 +102,19 @@
         android:text="@string/login"
         android:textColor="@color/white"
         android:textSize="20.0sp" />
-
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/buyinfo_selector"
+        android:padding="11.0dip"
+        android:text="注册"
+        android:textColor="@color/white"
+        android:textSize="20.0sp" />
     <TextView
         android:visibility="invisible"
         android:id="@id/tv_forgetPwd"

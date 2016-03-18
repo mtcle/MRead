@@ -47,6 +47,7 @@ public class LoginActivity extends BaseFirstLevActivity implements
             et_password.setText(mPreferUtil.getString("uPassword", ""));
         }
         (findViewById(R.id.btnlogin)).setOnClickListener(this);
+        (findViewById(R.id.btn_register)).setOnClickListener(this);
     }
 
 
@@ -54,15 +55,19 @@ public class LoginActivity extends BaseFirstLevActivity implements
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.tv_forgetPwd:
-                Intent i = new Intent();
+                //Intent i = new Intent();
                 //	i.setClass(mContext, ForgotPWDActivity.class);
                 //	startActivity(i);
                 break;
             case R.id.btnlogin:
-              // new TestTask().execute();//TODO
                 if (validateInput()) {// 验证
                     login(uAccount,uPassword);
                 }
+                break;
+            case R.id.btn_register://注册
+                Intent i = new Intent();
+                	i.setClass(mContext, RegistActivity.class);
+                	startActivity(i);
                 break;
             default:
                 break;
@@ -103,9 +108,9 @@ public class LoginActivity extends BaseFirstLevActivity implements
                 mPreferUtil.saveString("uAccount", userName);
                 mPreferUtil.saveString("uPassword", userPassword);
                 Intent intent = new Intent();
-              //  intent.setClass(mContext, MainActivity.class);
-                //mContext.startActivity(intent);
-                //finish();
+                intent.setClass(mContext, MainActivity.class);
+                mContext.startActivity(intent);
+                finish();
             }
 
             @Override
