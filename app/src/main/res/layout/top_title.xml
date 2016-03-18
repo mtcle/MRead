@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/n_login_topbar_id"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="@mipmap/headbackgrond" >
+
+    <RelativeLayout
+        android:id="@+id/viewBaseLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@id/info_back_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:background="@mipmap/back"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/viewBaseCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true" >
+
+        <TextView
+            android:id="@+id/n_login_titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/maign_5dp"
+            android:paddingTop="@dimen/maign_5dp"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:text="@string/app_name"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/viewBaseRight"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" >
+
+        <Button
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="3dp"
+            android:id="@+id/ibtnBarRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:background="@mipmap/creatablum"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

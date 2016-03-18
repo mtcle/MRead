@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="maign_5dp">5dp</dimen>
+    <dimen name="maign_10dp">10dp</dimen>
+    <dimen name="maign_15dp">15dp</dimen>
+    <dimen name="maign_20dp">20dp</dimen>
+    <dimen name="maign_30dp">30dp</dimen>
+    <dimen name="maign_35dp">35dp</dimen>
+    <dimen name="maign_40dp">40dp</dimen>
+    <dimen name="maign_48dp">48dp</dimen>
+    <dimen name="maign_50dp">50dp</dimen>
+    <dimen name="maign_60dp">60dp</dimen>
+    <dimen name="maign_65dp">65dp</dimen>
+    <dimen name="maign_72dp">72dp</dimen>
+    <dimen name="maign_75dp">75dp</dimen>
+    <dimen name="maign_maign_90dp">90dp</dimen>
+    <dimen name="maign_maign_100dp">100dp</dimen>
+    <dimen name="maign_maign_130dp">130dp</dimen>
+    <dimen name="maign_maign_140dp">140dp</dimen>
+    <dimen name="maign_maign_150dp">150dp</dimen>
+</resources>

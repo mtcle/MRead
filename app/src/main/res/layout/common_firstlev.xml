@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/commonViewLLTop"
+        layout="@layout/top_title" />
+    <!-- 这里放置主要内容 -->
+
+    <LinearLayout
+        android:id="@+id/viewContent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/commonViewLLTop"
+        android:background="@color/white"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

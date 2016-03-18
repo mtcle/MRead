@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_22px">11sp</dimen>
+    <dimen name="text_24px">12sp</dimen>
+    <dimen name="text_28px">14sp</dimen>
+    <dimen name="text_30px">15sp</dimen>
+    <dimen name="text_36px">18sp</dimen>
+    <dimen name="text_42px">21sp</dimen>
+    <dimen name="text_78px">39sp</dimen>
+    <dimen name="textsize_24">24sp</dimen>
+    <dimen name="textsize_22">22sp</dimen>
+    <dimen name="textsize_20">20sp</dimen>
+    <dimen name="textsize_18">18sp</dimen>
+    <dimen name="textsize_16">16sp</dimen>
+    <dimen name="textsize_14">14sp</dimen>
+    
+    <dimen name="dip_25">25dip</dimen>
+    <dimen name="dip_20">20dip</dimen>
+    <dimen name="dip_15">15dip</dimen>
+    <dimen name="dip_10">10dip</dimen>
+    <dimen name="dip_5">5dip</dimen>
+    
+    <dimen name="list_minHeight">40dip</dimen>
+    <dimen name="popmenu_width">105.0dip</dimen>
+    <dimen name="login_acc_paddingleft">45dip</dimen>
+    <dimen name="tab_lineHeight">55dp</dimen>
+    <dimen name="tab_menuTopImgHeight">80dp</dimen>
+</resources>
